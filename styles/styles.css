@@ -1,22 +1,161 @@
 /* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&display=swap');
 
-/*
 
-fonts list
+:root {
+    --black-color: #222226;
+    --grey-color: #666666;
+    --white-color: #ffffff;
+    --blue-color: #364BF7;
 
-1. Archivo
-2. Martian Mono
-*/
 
-:root{
+
+    /* fonts regular */
+    --f-regular: 400;
+    /* fonts semi-bold*/
+    --f-semi-bold: 600;
+
+    --letter-spacing: calc(var(--f-semi-bold) * -0.04)
 
 }
 
-.boxed-link-button {
 
+/* class d = desktop */
+
+.d-h1 {
+    font-size: 96px;
+    line-height: 96px;
+    font-family: Archivo, sans-serif;
+    font-weight: var(--f-semi-bold);
+    letter-spacing: var(--letter-spacing);
 }
 
-.free-link-button {
 
+.d-h2 {
+    font-size: 64px;
+    line-height: 64px;
+    font-family: Archivo, sans-serif;
+    font-weight: var(--f-semi-bold);
+    letter-spacing: var(--letter-spacing);
+}
+
+.d-h3 {
+    font-size: 48px;
+    line-height: 48px;
+    font-family: Archivo, sans-serif;
+    font-weight: var(--f-semi-bold);
+    letter-spacing: var(--letter-spacing);
+    text-transform: uppercase;
+}
+
+.d-h4 {
+    font-size: 32px;
+    line-height: 40px;
+    font-family: Archivo, sans-serif;
+    font-weight: var(--f-regular);
+    letter-spacing: calc(var(--f-regular) * 0);
+}
+
+.d-h5 {
+    font-size: 24px;
+    line-height: 40px;
+    font-family: Archivo, sans-serif;
+    font-weight: var(--f-semi-bold);
+    letter-spacing: calc(var(--f-semi-bold) * 0);
+}
+
+
+.d-h6 {
+    font-size: 24px;
+    line-height: 48px;
+    font-family: Archivo, sans-serif;
+    font-weight: var(--f-regular);
+    letter-spacing: calc(var(--f-regular) * 0);
+}
+
+.d-p{
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "Archivo", sans-serif;
+    letter-spacing: calc(var(--f-regular) * 0);
+}
+
+.d-subtext {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Martian Mono", sans-serif;
+    font-weight: var(--f-regular);
+    text-transform: uppercase;
+}
+
+
+
+
+/* mobile fonts */
+
+.m-h1{
+    font-size: 48px;
+    font-family: Archivo, sans-serif;
+    font-weight: var(--f-semi-bold);
+    letter-spacing: var(--letter-spacing);
+    line-height: 100%;
+}
+
+.m-h2{
+    font-size: 40px;
+    line-height: 40px;
+    font-family: Archivo, sans-serif;
+    font-weight: var(--f-semi-bold);
+    letter-spacing: var(--letter-spacing);
+}
+
+.m-h3{
+    font-size: 24px;
+    line-height: 24px;
+    font-family: Archivo, sans-serif;
+    font-weight: var(--f-regular);
+    letter-spacing: var(--letter-spacing);
+    text-transform: uppercase;
+}
+
+.m-h4{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: var(--f-regular);
+    letter-spacing: calc(var(--f-regular) * 0);
+}
+
+
+.m-h5 {
+    font-size: 18px;
+    line-height: 32px;
+    font-family: Archivo, sans-serif;
+    font-weight: var(--f-regular);
+    letter-spacing: calc(var(--f-semi-bold) * 0);
+}
+
+
+.m-h6 {
+    font-size: 18px;
+    line-height: 32px;
+    font-family: Archivo, sans-serif;
+    font-weight: var(--f-regular);
+    letter-spacing: calc(var(--f-regular) * 0);
+}
+
+.m-p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Archivo, sans-serif;
+    font-weight: var(--f-regular);
+    letter-spacing: calc(var(--f-regular) * 0);
+}
+
+.m-subtext{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Martian Mono", sans-serif;
+    font-weight: var(--f-regular);
+    letter-spacing: var(--letter-spacing);
 }
 
