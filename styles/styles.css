@@ -465,21 +465,40 @@ ul {
 }
 
 .internal-ad-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 15em;
+  height: 10em;
+  margin-bottom: 7em;
 }
 
 .internal-ad-section div:first-of-type p {
-  text-align: center;
+  text-align: start;
   padding: 10px;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 .internal-ad-section p {
   margin-bottom: 20px;
+  margin-left: .6em;
 }
+
+.internal-ad-section a {
+  margin-left: 2em;
+}
+
+/* THANKS SECTION */
+
+.thanks-section{
+    height: 10em;
+    width: 100%;
+    text-align: start;
+}
+
+.thanks-section h1 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 1.2em;
+}
+
+
 
 /* tablets */
 @media (min-width: 768px) {
