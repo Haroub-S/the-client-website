@@ -1,5 +1,5 @@
 /* CSS */
-@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap');
 
 :root {
   --black-color: #222226;
@@ -497,6 +497,62 @@ ul {
     padding-left: 1.2em;
 }
 
+
+/*  LOWER PARTNERS SECTION */
+
+.lower-partners-section{
+    height: calc(103 / 16 * 1em);
+    display: flex;
+    flex-direction: row; 
+}
+
+.lower-partners-section img {
+    width: 100px;
+    height: 100px;
+    transform: translateX(-50px);
+}
+ 
+/* TOP FOOTER */
+
+.footer-top{
+    display: flex;
+    flex-direction: column;
+    height: calc(200 / 16 * 1em);
+    width: 100%;
+    margin-top: 4em;
+    padding-left: 20px;
+}
+
+.footer-top img {
+    width: 7em;
+    height: 7em;
+}
+
+.footer-top .link{
+    margin-top: 3em;
+}
+
+.footer-top .link::after {
+    content: url(/assets/Icon-arrow.svg);
+}
+
+.footer-links-section {
+    width: 100%;
+    height: 250px; 
+}
+
+.footer-links-section ul{
+    display: block;
+    text-transform: capitalize;
+}
+
+.footer-links-section ul li a {
+    list-style-type: none;
+    text-decoration: underline;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1em;
+}
 
 
 /* tablets */
