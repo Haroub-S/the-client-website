@@ -506,12 +506,16 @@ ul {
   height: calc(103 / 16 * 1em);
   display: flex;
   flex-direction: row;
+  margin-top: 5em;
 }
 
 .lower-partners-section img {
-  width: 100px;
-  height: 100px;
-  transform: translateX(-50px);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: var(--black-color) solid thin;
+
+  /* transform: translateX(-50px); */
 }
 
 /* TOP FOOTER */
@@ -562,24 +566,71 @@ ul {
 .location-section {
   color: var(--black-color);
   width: 100%;
-  height: 300px;
+  height: 200px;
   padding-left: 1em;
   /* border: black solid thin; */
 }
 
-
 .location-section .upper {
-  padding-left: .5em;
+  /* padding-left: .5em; */
   margin: 0;
 }
 
-/* .location-section h3 {
+.upper h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.location-section .upper ul,
+.location-section .lower ul {
+  /* line-height: calc(24 / 16 * 1em); */
+  padding: 0;
+}
+
+.location-section .upper ul li,
+.location-section .lower ul li,
+.social-and-privacy ul li {
+  line-height: 24px;
+  font-family: Inter;
+  font-weight: 400;
+  padding: none;
+}
+
+.location-section h3 {
   font-weight: 700;
   font-family: Inter;
   line-height: calc(24 / 16 * 1em);
   font-size: 1em;
-} */
+}
 
+.location-section .lower {
+  padding-top: 0.5em;
+  text-decoration: underline;
+}
+
+/* SOCIAL AND PRIVACY */
+
+.social-and-privacy {
+  width: 100%;
+  height: 10em;
+  padding-left: 1em;
+  margin-top: 3em;
+}
+
+.social-and-privacy ul {
+  padding-left: 0;
+}
+
+.social-and-privacy ul li {
+  display: inline-block;
+  text-decoration: underline;
+  text-transform: capitalize;
+  padding-right: 1em;
+}
+
+.social-and-privacy h3{
+  font-size: 17px;
+}
 
 /* tablets */
 @media (min-width: 768px) {
