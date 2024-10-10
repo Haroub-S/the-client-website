@@ -30,13 +30,12 @@ Verzoek:
 1. **HTML:**
    - De HTML-structuur is semantisch opgebouwd, met gebruik van elementen zoals `<header>`, `<nav>`, `<main>`, `<section>`, en `<footer>` voor een duidelijke.
 
-   - Ik ben ook van plan om `aria-labels` te geberuiken om de toegankelijkheid voor schermlezers te verbeteren. 
+   - Ik ben ook van plan om `aria-labels` te geberuiken om de toegankelijkheid voor schermlezers te verbeteren.
 
 2. **CSS:**
    - **Flexbox & Grid Layout:** Gebruikt voor het creëren van een flexibel en responsief ontwerp.
    - **Media queries:** Voor verschillende weergaveschermen zijn media queries gebruikt om de lay-out en styling aan te passen.
-   - **Custom properties (CSS variabelen):** Voor consistente kleuren en thema-elementen over de hele site heen.
-   - **3D-effecten en animaties:** Toegevoegd aan sommige elementen om een moderne en dynamische gebruikerservaring te bieden.
+   - **Custom properties (CSS variabelen):** Voor consistente kleuren en thema-elementen over de hele site heen. 
  
 TODO: 
     Menu werkt nog niet goed.
