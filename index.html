@@ -12,9 +12,8 @@
 <body>
   <nav>
     <div class="logo">
-      <img src="assets/dda-logo-white.svg" alt="dutch digital agency logo">
+      <img class="logo__img" src="assets/dda-logo-white.svg" alt="dutch digital agency logo">
     </div>
-
 
     <div class="hamburger">
       <div class="bar"></div>
@@ -42,12 +41,20 @@
     <section class="over-ons-section">
       <a href="#" class="back-to-home"> TERUG NAAR HOME </a>
       <h1 class="m-h1">over ons</h1>
-      <p class="m-h6">Dutch Digital Agencies (DDA) verenigt en vertegenwoordigt de [nummer] beste digitale bureaus van Nederland. Samen maken we de wereld om ons heen steeds een beetje slimmer. Stap voor stap, klik na klik.</p>
+      <p class="m-h6">Dutch Digital Agencies (DDA) verenigt en vertegenwoordigt de <span>467</span> beste digitale bureaus van Nederland. Samen maken we de wereld om ons heen steeds een beetje slimmer. Stap voor stap, klik na klik.</p>
     </section>
 
 
     <section class="video-section">
-      <video class="video" src="assets/videoplayback.mp4" loop autoplay></video>
+      <video class="video" src="assets/videoplayback.mp4" poster="assets/video.png"></video>
+
+      <article class="button-holder video_holder">
+        <section>
+          <a class="button m-t-medium video__button">
+            bekijk onze video
+          </a>
+        </section>
+      </article>
     </section>
 
     <section class="video-caption-section">
@@ -74,6 +81,17 @@
     </section>
 
     <section class="partners-section">
+      <article class="bureaus">
+        <img src="assets/partners/Logo6.svg" alt="" srcset="">
+        <img src="assets/partners/Logo1.svg" alt="" srcset="">
+        <img src="assets/partners/Logo6.svg" alt="" srcset="">
+        <img src="assets/partners/Logo4.svg" alt="" srcset="">
+        <img src="assets/partners/Logo4.svg" alt="" srcset="">
+        <img src="assets/partners/Logo2.svg" alt="" srcset="">
+        <img src="assets/partners/Logo1.svg" alt="" srcset="">
+        <img src="assets/partners/Logo2.svg" alt="" srcset="">
+      </article>
+      
       <article class="bureaus">
         <img src="assets/partners/Logo6.svg" alt="" srcset="">
         <img src="assets/partners/Logo1.svg" alt="" srcset="">
@@ -290,7 +308,8 @@
 
   </footer>
 
-  <script src="scripts/script.js"></script>
+  <script src="scripts/jQuery.js" defer></script>
+  <script src="scripts/script.js" defer></script>
 </body>
 
 </html>
