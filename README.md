@@ -41,3 +41,8 @@ TODO:
     Menu werkt nog niet goed.
     Animties toevoegen.
     Design bouwen voor desktop.
+
+
+
+
+
