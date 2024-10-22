@@ -176,6 +176,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .logo img {
@@ -231,7 +232,7 @@ ul {
 }
 
 .line {
-  width: 100vw;
+  width: 100%;
 }
 
 .menu {
@@ -357,7 +358,7 @@ ul {
 /* SHORT STORY SECTION */
 
 .short-story-section {
-  width: 100%;
+  width: 95%;
   height: calc(720 / 16 * 1em);
   text-align: start;
   padding-left: 0.5em;
@@ -443,7 +444,11 @@ ul {
 }
 
 .slider .bureaus img {
-  animation: bureausAnimations 3s infinite alternate; /*delay iteration-count direction fill-mode; */
+  animation: bureausAnimationsTop 1.5s infinite alternate; /*delay iteration-count direction fill-mode; */
+}
+
+.slider-2 .bureaus img {
+  animation: bureausAnimationsBottom 1.5s infinite alternate; /*delay iteration-count direction fill-mode; */
 }
 
 /* .partners-section {
@@ -721,11 +726,20 @@ ul {
   }
 }
 
-@keyframes bureausAnimations {
+@keyframes bureausAnimationsTop {
   from {
     transform: translateX(0);
   }
   to {
     transform: translateX(-100px);
+  }
+}
+
+@keyframes bureausAnimationsBottom {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0);
   }
 }

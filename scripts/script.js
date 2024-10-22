@@ -13,7 +13,17 @@ $(document).ready(function () {
     let menu = $(".menu");
 
     menu.toggleClass("active");
+
+    let isActive = menu.hasClass("active");
+
+    if (isActive) {
+      console.log("menu is active");
+      menu.removeClass("hidden"); // Remove hidden when active
+    } else {
+      menu.addClass("hidden"); // Add hidden when not active
+    }
   });
+
 
   $(".logo__img").click(function (event) {
     event.preventDefault();
